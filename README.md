@@ -11,25 +11,30 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+#SevenStarUtils
 
 ## Features
 
 TODO: List what your package can do. Maybe include images, gifs, or videos.
 
-## Getting started
+## Installation
+Add seven_star_utils as dependency to your pubspec file
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+```dart
+seven_star_utils:
+    git:
+      url: https://github.com/ThanHtuAung/seven_star_utils.git
+```
+
+## Setup
+No additional setup required.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+First, you need to import package.
 
 ```dart
-const like = 'sample';
+import 'package:seven_star_utils/seven_star_utils.dart';
 ```
 
 ## Additional information
