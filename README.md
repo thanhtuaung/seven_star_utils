@@ -12,6 +12,7 @@ and the Flutter guide for
 -->
 
 #SevenStarUtils
+
 Easy quantity changer widget for you.
 
 ## Features
