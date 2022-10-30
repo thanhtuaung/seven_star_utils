@@ -11,12 +11,10 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-#SevenStarUtils
-
+## SevenStarUtils
 Easy quantity changer widget for you.
 
 ## Features
-
 <img src="https://user-images.githubusercontent.com/116297911/198873723-07f52027-0b60-4472-88dc-a6103a08e491.png" width="150" height="300"/>   <img src="https://user-images.githubusercontent.com/116297911/198873745-db26d74d-38d4-443f-9143-fb36ee7e9928.png" width="150" height="300"/>   <img src="https://user-images.githubusercontent.com/116297911/198873735-de8c0df6-f8b2-4c8c-be0b-b9cd33c20bc1.png" width="150" height="300"/>
 
 
