@@ -12,3 +12,5 @@ part 'src/utils/app_context.dart';
 part 'src/enums/enums.dart';
 part 'src/base_widgets/base_widget.dart';
 part 'src/base_widgets/base_stateless_widget.dart';
+part 'src/extensions/context_extension.dart';
+part 'src/extensions/string_extension.dart';
