@@ -29,8 +29,8 @@ class _SevenStarNumberKeyPadState extends State<SevenStarNumberKeyPad> {
 
   @override
   void initState() {
-    if(widget.initialValue != null) {
-      value = '${widget.initialValue}';
+    if (widget.initialValue != null) {
+      value = widget.initialValue!.toStringAsFixed(0);
     }
     super.initState();
   }
