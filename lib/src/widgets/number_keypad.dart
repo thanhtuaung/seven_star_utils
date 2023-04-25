@@ -6,12 +6,14 @@ class SevenStarNumberKeyPad extends StatefulWidget {
   SevenStarNumberKeyPad({
     Key? key,
     bool? isOnlyNumber,
+    this.initialValue,
     this.background,
     this.primaryColor,
   })  : isOnlyNumber = isOnlyNumber ?? false,
         super(key: key);
 
   final bool isOnlyNumber;
+  double? initialValue;
   Color? background;
   Color? primaryColor;
 
@@ -27,6 +29,9 @@ class _SevenStarNumberKeyPadState extends State<SevenStarNumberKeyPad> {
 
   @override
   void initState() {
+    if(widget.initialValue != null) {
+      value = '${widget.initialValue}';
+    }
     super.initState();
   }
 
